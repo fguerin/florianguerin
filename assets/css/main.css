@@ -1,0 +1,100 @@
+@font-face{
+    font-family : "dinot";
+    src : url('assets/fonts/DINOT-Medium.otf');
+}
+
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+header {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+header #author #logo a {
+    position: relative;
+    background: url('/assets/img/me2.jpeg') no-repeat;
+    background-size: 100%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-indent: -5000px;
+    display: inline-block;
+}
+
+header #author .author-name {
+    position: relative;
+    color: #444;
+    cursor: auto;
+    font-family: 'PT Serif', Georgia, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0.5em 0;
+}
+
+header #author .social a {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-indent: -5000px;
+    margin: 0 0.3em;
+}
+
+header #author .social a.twitter {
+    background-image: url('/assets/img/social-003_twitter.png');
+}
+header #author .social a.google-plus {
+    background-image: url('/assets/img/social-040_google_plus.png');
+}
+header #author .social a.linkedin {
+    background-image: url('/assets/img/social-011_linkedin.png');
+}
+
+section#content {
+    margin-top: 100px;
+}
+
+section#content h1{
+    font-size: 50px;
+    font-family: 'dinot';
+    color: #444;
+}
